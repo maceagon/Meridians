@@ -450,3 +450,65 @@ a:hover {
   background: rgba(45, 46, 45, 0.9);
   border-radius: 4px;
 }
+/* Comprehensive Mobile Optimization */
+@media (max-width: 768px) {
+  /* Carousel text sizing */
+  h1 {
+    font-size: 2rem !important;
+    top: 35% !important;
+  }
+  
+  .scroll-text {
+    font-size: 1.2rem !important;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 1.5rem !important;
+    padding: 20px !important;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem !important;
+    padding: 20px !important;
+  }
+  
+  /* Text container */
+  .text-container {
+    font-size: 0.9rem !important;
+    padding: 20px !important;
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Two column sections */
+  .two-column-section,
+  .final-section {
+    padding: 40px 20px !important;
+    grid-template-columns: 1fr !important;
+    font-size: 0.9rem !important;
+  }
+  
+  .text-column h3,
+  .final-text-column h3 {
+    font-size: 1.3rem !important;
+  }
+  
+  /* Gallery */
+  .image-gallery {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  
+  .gallery-image {
+    height: 200px !important;
+  }
+  
+  /* Team section */
+  .team-section {
+    padding: 40px 20px !important;
+  }
+  
+  .team-title {
+    font-size: 1.5rem !important;
+  }
+}
